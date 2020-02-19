@@ -1,0 +1,41 @@
+git init //initialize local git repository
+git config --global user.name 'Mackie Lagman'
+git config --global user.email 'mackiezlagman@gmail.com'
+git add <file> //add files to the index or staging area
+if you want to remove use -  git rm --cached <file>
+git add *.html //adds all html files
+to add every file run - git add .
+git status //check what you have in the staging area  or working tree
+git commit // commit changes in the index or to the local repository
+
+touch .gitignore - if you don't want files to be included
+
+git branch nameofbranch
+
+git commit -m 'What changed?" -m is comment 
+
+to go to the branch
+git checkout nameofbranch
+
+
+If you are working with remote repository
+git push // push to remote repository -need to add it using your credentials or ssh keys
+git pull // to pull latest changes from remote repository
+git clone // clone repo into a new directory
+
+if you want to install git, 
+Linux - 
+sudo apt-get install git
+
+Fedora
+sudo yum install git
+
+Mac
+download it or use homebrew
+
+windows
+git-bash tool or cli
+
+Graphical is also an option 
+
+
